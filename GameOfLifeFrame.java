@@ -15,7 +15,7 @@ public class GameOfLifeFrame extends JFrame
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.out.println("Still lifes\nOscillators\nRandom\n\n");
+		System.out.println("Still lifes\nOscillators\nRandom\n\nEnter your choice from above");
 		
 		int[][] gridValueCurrent = new int[GRID_R][GRID_C];
 		String selection = "";
